@@ -13,3 +13,6 @@ Use the S A SPACE and K keys to move forward, backward, Jump respectively.  The 
 If you double tap the jump button you can do a double jump and if you triple press it you can actually do a triple jump.  The level is designed around triple jumping so the mechanic is something to learn.
 
 This game was made in the Godot engine for simplicity and to learn Game development.
+
+# Why there is a NoVNC folder?
+This is because I used it while i was developing the game in Github Codespaces.  However, that is empty and is not important to the project.  Therefore, you can just ignore it.
