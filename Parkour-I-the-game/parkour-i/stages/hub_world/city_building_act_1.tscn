@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ni5ajf23njmt"]
+
+[ext_resource type="Script" uid="uid://borqm4a4mjiic" path="res://scripts/hub_world_scripts/city_building_act_1.gd" id="1_lqsle"]
+[ext_resource type="Texture2D" uid="uid://b682t378oiah" path="res://assets/city_hubworld_assets/Building_tutorial.png" id="1_s3tw4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s3tw4"]
+radius = 158.0
+height = 546.0
+
+[node name="Building" type="Area2D" unique_id=147985662]
+script = ExtResource("1_lqsle")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1746588080]
+texture_filter = 1
+position = Vector2(335, -38)
+scale = Vector2(0.88476557, 0.9589844)
+texture = ExtResource("1_s3tw4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=614682571]
+position = Vector2(313, -36)
+shape = SubResource("CapsuleShape2D_s3tw4")
+debug_color = Color(0.11043846, 0.6010433, 0.671823, 0.41960785)
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

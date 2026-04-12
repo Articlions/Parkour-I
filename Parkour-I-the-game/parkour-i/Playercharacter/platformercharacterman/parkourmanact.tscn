@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dea25p8472518"]
+
+[ext_resource type="Script" uid="uid://lg8851u184fd" path="res://scripts/Player_character_scripts/parkourmanact.gd" id="1_mu4ah"]
+[ext_resource type="Texture2D" uid="uid://4id1pqbrtpni" path="res://assets/parkourguy.png" id="2_mu4ah"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jir06"]
+size = Vector2(79.5, 164)
+
+[node name="Parkourman" type="Node" unique_id=1077154355]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1360356331]
+position = Vector2(1528, -133)
+script = ExtResource("1_mu4ah")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1133725705]
+texture_filter = 1
+position = Vector2(256.99994, 39.999996)
+scale = Vector2(9.062503, 12.062501)
+texture = ExtResource("2_mu4ah")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=298347130]
+position = Vector2(235, 25)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=835060635]
+position = Vector2(237.25, 35)
+shape = SubResource("RectangleShape2D_jir06")

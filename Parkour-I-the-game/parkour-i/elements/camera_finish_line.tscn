@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://d3hnxnojdwr5h"]
+
+[ext_resource type="Texture2D" uid="uid://mablyufxd5xl" path="res://assets/city_hubworld_assets/camera_finish.png" id="1_lk0mv"]
+[ext_resource type="Script" uid="uid://mhafg78ch0ha" path="res://scripts/elements_scripts/camera_finish_line.gd" id="1_q2meh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q2meh"]
+size = Vector2(260, 461)
+
+[node name="camera" type="Area2D" unique_id=957152989]
+script = ExtResource("1_q2meh")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=614703831]
+texture_filter = 1
+position = Vector2(119, 191.24998)
+scale = Vector2(4.71875, 4.5747657)
+texture = ExtResource("1_lk0mv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1775014588]
+position = Vector2(114, 186.5)
+shape = SubResource("RectangleShape2D_q2meh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

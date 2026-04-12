@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b3rayhr4peaab"]
+
+[ext_resource type="Script" uid="uid://bdxanxuv58uht" path="res://Playercharacter/parkourcharacterman.gd" id="1_knoex"]
+[ext_resource type="Texture2D" uid="uid://4id1pqbrtpni" path="res://assets/parkourguy.png" id="2_knoex"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_knoex"]
+size = Vector2(90, 160)
+
+[node name="Parkourcharacterman" type="CharacterBody2D" unique_id=348896530]
+script = ExtResource("1_knoex")
+speed = 5615
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1442519965]
+texture_filter = 1
+position = Vector2(111, 140)
+scale = Vector2(9.875, 12.125)
+texture = ExtResource("2_knoex")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1754800305]
+position = Vector2(94, 133)
+shape = SubResource("RectangleShape2D_knoex")
