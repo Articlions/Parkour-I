@@ -16,3 +16,13 @@ This game was made in the Godot engine for simplicity and to learn Game developm
 
 # Why there is a NoVNC folder?
 This is because I used it while i was developing the game in Github Codespaces.  However, that is empty and is not important to the project.  Therefore, you can just ignore it.
+
+# Keep in Mind 
+This game is not finished and some parts of this game is still trying to be worked.
+THere are pits that restrt the level so I encourage you to explore the level and find different paths.
+
+# Where to play
+You can play with this link
+
+[Parkour-I](https://articlions.github.io/)
+
