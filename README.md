@@ -4,7 +4,10 @@ The actual plaformer this time taking from the lessons learned from the first ga
 # Why this was made
 This game was made because I wanted to mix the best of Mario and Sonic games 
 
-The level design is bare bones.  I might make it polished but it will be later.
+The level design is bare bones(but fun!).  I might make it polished but it will be later.
+
+# AI usage
+This project used AI but just to debug errors and explanations on using the Godot Engine.  This project is not written fully in AI and I did try to use very little AI.  Moreover, the core idea for this game was also not made by AI this game is not fully written in AI coding.  I haven't even used Github Copilot at all since i got access to it for this game. 
 
 # How to play
 
@@ -19,7 +22,7 @@ This is because I used it while i was developing the game in Github Codespaces. 
 
 # Keep in Mind 
 This game is not finished and some parts of this game is still trying to be worked.
-THere are pits that restrt the level so I encourage you to explore the level and find different paths.
+There are pits that restrt the level so I encourage you to explore the level and find different paths.
 
 # Where to play
 You can play with this link
