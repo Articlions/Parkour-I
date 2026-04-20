@@ -11,11 +11,11 @@ This project used AI but just to debug errors and explanations on using the Godo
 
 # How to play
 
-Use the D key to move forward. 
-Use the A key to move backwards.
-Use either the K key or the SPACE bar to jump
-If you press the jump button(SPACE bar or K key)two times in a row quickly you can do a double jump.
-If you press the jump button(SPACE bar or K key) three times in a row quickly you are able to do a triple jump.  
+* Use the D key to move forward. 
+* Use the A key to move backwards.
+* Use either the K key or the SPACE bar to jump
+* If you press the jump button(SPACE bar or K key)two times in a row quickly you can do a double jump.
+* If you press the jump button(SPACE bar or K key) three times in a row quickly you are able to do a triple jump.  
 
 # Notes about how to play
 
