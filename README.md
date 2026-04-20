@@ -22,7 +22,7 @@ This is because I used it while i was developing the game in Github Codespaces. 
 
 # Keep in Mind 
 This game is not finished and some parts of this game is still trying to be worked.
-There are pits that restrt the level so I encourage you to explore the level and find different paths.
+There are pits that restart the level so I encourage you to explore the level and find different paths.
 
 # Where to play
 You can play with this link
