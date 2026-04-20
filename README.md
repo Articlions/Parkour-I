@@ -11,14 +11,21 @@ This project used AI but just to debug errors and explanations on using the Godo
 
 # How to play
 
-Use the S A SPACE and K keys to move forward, backward, Jump respectively.  The SPACE and K key both map to the jump action.
+Use the D key to move forward. 
+Use the A key to move backwards.
+Use either the K key or the SPACE bar to jump
+If you press the jump button(SPACE bar or K key)two times in a row quickly you can do a double jump.
+If you press the jump button(SPACE bar or K key) three times in a row quickly you are able to do a triple jump.  
 
-If you double tap the jump button you can do a double jump and if you triple press it you can actually do a triple jump.  The level is designed around triple jumping so the mechanic is something to learn.
+# Notes about how to play
 
+The SPACE bar and K key both correspond to the ability to Jump.
+The building in the world after you start from the start menu is meant to be clicked on to start the first level.
+The level is designed around triple jumping so the mechanic is something to learn.
 This game was made in the Godot engine for simplicity and to learn Game development.
 
 # Why there is a NoVNC folder?
-This is because I used it while i was developing the game in Github Codespaces.  However, that is empty and is not important to the project.  Therefore, you can just ignore it.
+This is because I used it while I was developing the game in Github Codespaces.  However, that is empty and is not important to the project.  Therefore, you can just ignore it.
 
 # Keep in Mind 
 This game is not finished and some parts of this game is still trying to be worked.
