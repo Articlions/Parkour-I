@@ -19,17 +19,17 @@ This project used AI but just to debug errors and explanations on using the Godo
 
 # Notes about how to play
 
-The SPACE bar and K key both correspond to the ability to Jump.
-The building in the world after you start from the start menu is meant to be clicked on to start the first level.
-The level is designed around triple jumping so the mechanic is something to learn.
-This game was made in the Godot engine for simplicity and to learn Game development.
+* The SPACE bar and K key both correspond to the ability to Jump.
+* The building in the world after you start from the start menu is meant to be clicked on to start the first level.
+* The level is designed around triple jumping so the mechanic is something to learn.
+* This game was made in the Godot engine for simplicity and to learn Game development.
 
 # Why there is a NoVNC folder?
 This is because I used it while I was developing the game in Github Codespaces.  However, that is empty and is not important to the project.  Therefore, you can just ignore it.
 
 # Keep in Mind 
 This game is not finished and some parts of this game is still trying to be worked.
-There are pits that restart the level so I encourage you to explore the level and find different paths.
+There are danger zones that restart the level so I encourage you to explore the level and find different paths.
 
 # Where to play
 You can play with this link
