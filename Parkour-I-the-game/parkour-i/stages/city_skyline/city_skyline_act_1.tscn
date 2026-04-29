@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://uxele7p41un8" path="res://elements/platform.tscn" id="3_movq0"]
 [ext_resource type="Script" uid="uid://dvp0esy360uq7" path="res://scripts/city_run_act_1_scripts/area_2d.gd" id="4_8qiv0"]
 [ext_resource type="PackedScene" uid="uid://d3hnxnojdwr5h" path="res://elements/camera_finish_line.tscn" id="5_be883"]
+[ext_resource type="Texture2D" uid="uid://qxls4r852ej5" path="res://assets/night-buildings.png" id="6_yjhiw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8qiv0"]
 texture = ExtResource("2_movq0")
@@ -329,5 +330,12 @@ position = Vector2(34206, -11789)
 
 [node name="camera" parent="." unique_id=957152989 instance=ExtResource("5_be883")]
 position = Vector2(42620, -11684)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1741885832]
+z_index = -12
+offset_top = -16500.0
+offset_right = 53809.0
+offset_bottom = 5238.0
+texture = ExtResource("6_yjhiw")
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

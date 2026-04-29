@@ -13,3 +13,4 @@ func _process(delta: float) -> void:
 
 func _on_pressed() -> void:
 	get_tree().change_scene_to_file("res://stages/hub_world/city_hub_world.tscn")
+	print("You pushed me yay!")

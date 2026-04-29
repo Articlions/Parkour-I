@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cn7nitt5wd5fc" path="res://scripts/main_menu_scripts/start.gd" id="1_15lat"]
 [ext_resource type="Script" uid="uid://deuguuwl1158e" path="res://scripts/main_menu_scripts/credits.gd" id="2_60tkv"]
+[ext_resource type="Texture2D" uid="uid://cc0itwfo3ie6k" path="res://assets/night-sky.png" id="4_15lat"]
 [ext_resource type="Script" uid="uid://b4jersprkg860" path="res://scripts/main_menu_scripts/quit.gd" id="4_ft8e8"]
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_u3o7i"]
@@ -28,7 +29,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="." unique_id=640593223]
+[node name="Parkourtitle" type="Label" parent="." unique_id=640593223]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
@@ -43,6 +44,7 @@ text = "Parkour"
 horizontal_alignment = 1
 
 [node name="Start" type="Button" parent="." unique_id=216929668]
+z_index = 18
 layout_mode = 1
 anchors_preset = 6
 anchor_left = 1.0
@@ -95,6 +97,31 @@ theme_override_styles/normal = SubResource("StyleBoxLine_yheje")
 text = "Quit
 "
 script = ExtResource("4_ft8e8")
+
+[node name="OrientationHint" type="Label" parent="." unique_id=1882975618]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+offset_right = 659.0
+grow_vertical = 0
+text = "(Do you want to know how to play this game? Push the credits button on how to play)"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1775739362]
+z_index = -100
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -210.0
+offset_bottom = 166.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+mouse_behavior_recursive = 1
+texture = ExtResource("4_15lat")
 
 [connection signal="pressed" from="Start" to="Start" method="_on_pressed"]
 [connection signal="pressed" from="Credits" to="Credits" method="_on_pressed"]

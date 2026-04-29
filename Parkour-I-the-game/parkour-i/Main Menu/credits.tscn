@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bucd8084jl3f8"]
 
-[ext_resource type="Script" uid="uid://daxaeuttdwxwt" path="res://license.gd" id="1_62agj"]
 [ext_resource type="Script" uid="uid://ddr0qbmrlmcav" path="res://scripts/main_menu_scripts/go_back_credit_scene.gd" id="1_bhus6"]
+[ext_resource type="Texture2D" uid="uid://cc0itwfo3ie6k" path="res://assets/night-sky.png" id="2_62agj"]
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_5c3sl"]
 color = Color(0.33125815, 0.287419, 0.109429665, 1)
@@ -15,7 +15,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_62agj")
 
 [node name="Panel" type="Panel" parent="." unique_id=35775658]
 layout_mode = 1
@@ -67,14 +66,60 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -136.0
-offset_top = -136.0
-offset_right = 139.0
-offset_bottom = -61.0
+offset_left = -124.0
+offset_top = -104.0
+offset_right = 199.0
+offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_styles/normal = SubResource("StyleBoxLine_5c3sl")
 text = "Lets get back"
 script = ExtResource("1_bhus6")
+
+[node name="How_to_play_text" type="Label" parent="." unique_id=1023061377]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -422.5
+offset_top = 342.0
+offset_right = 422.5
+offset_bottom = 469.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 21
+text = "Use the D key to move forward.
+Use the A key to move backwards.
+Use either the K key or the SPACE bar to jump
+If you press the jump button(SPACE bar or K key)two times in a row quickly you can do a double jump.
+If you press the jump button(SPACE bar or K key) three times in a row quickly you are able to do a triple jump.
+The building in the world after you start from the start menu is meant to be clicked on to start the first level."
+
+[node name="Label" type="Label" parent="." unique_id=1468977372]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -126.0
+offset_top = -62.5
+offset_right = 126.0
+offset_bottom = 62.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 44
+text = "How to play
+"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1043577143]
+z_index = -100
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_behavior_recursive = 1
+texture = ExtResource("2_62agj")
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
-@export var speed : int = 5600
+@export var speed : int = 20000
+
 
 func _ready():
 	pass # Here we have our speed i dont know completely if delta time is slowing it down.
@@ -16,5 +17,5 @@ func _physics_process(delta):
 	# Move it person!
 	velocity = player_direction * speed * delta
 	# This was for debuggging purposes i didnt know  if it was moving.
-	print(position) # Probably will be removed later.
+	# print(position) # Probably will be removed later.
 	move_and_slide() # NEED this you need this to Gooooo GOOOOOOO!
